@@ -10,4 +10,5 @@ main(int argc, char * argv[]){
 	printf("Hello, %s \n", zach);
 	printf("Hello, %c \n", zach[0]);
 	printf("Hello World!");
+	printf("Hello, %s \n", ben && zach);
 }
