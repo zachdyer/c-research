@@ -9,6 +9,6 @@ main(int argc, char * argv[]){
 	printf("Hello, %s \n", ben);
 	printf("Hello, %s \n", zach);
 	printf("Hello, %c \n", zach[0]);
-	printf("Hello World!");
-	printf("Hello, %s \n", ben && zach);
+	printf("Hello World!\n");
+	printf("Hello, %s and %s\n", ben, zach);
 }
