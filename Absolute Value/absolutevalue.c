@@ -1,14 +1,9 @@
 #include<stdio.h>
+#include <stdlib.h> 
 
 main(int argc, char * argv[]){
-	//puts(�Hello world�); 
-	char ben[] = "Ben";
-	char zach[] = {'Z','a','c','h','\0'};
-	//char arr[] = {'c','o','d','e','\0'};
-
-	printf("Hello, %s \n", ben);
-	printf("Hello, %s \n", zach);
-	printf("Hello, %c \n", zach[0]);
-	printf("Hello World!\n");
-	printf("Hello, %s and %s\n", ben, zach);
+	printf("Enter a number to find out what its absolute value is:");
+	char numberStr[8];
+	int numberInt = strtol(gets(numberStr),NULL,0);
+	printf("The absolute value of %d is %d",numberInt,abs(numberInt));
 }
